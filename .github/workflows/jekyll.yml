@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - master  # Here source code branch is `master`, it could be other branch
-  workflow_dispatch：
+  workflow_dispatch:
   
 jobs:
   build_and_deploy:
